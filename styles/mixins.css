@@ -7,5 +7,10 @@
 .h-text-l {
   font-weight: 700;
   font-size: 21px;
-  line-height: 28px;
+  line-height: 26px;
+}
+
+.blue-block {
+  background-color: #81b3d2;
+  color: #ffffff;
 }
