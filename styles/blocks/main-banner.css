@@ -1,0 +1,12 @@
+.main-banner {
+  background-color: #84bfe4;
+  background-image: url("/images/back-desktop.jpeg");
+  background-position: center;
+  height: 390px;
+}
+
+.banner-img {
+  width: 280px;
+  height: 212px;
+  margin: 90px 20px;
+}
