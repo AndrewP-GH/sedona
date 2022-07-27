@@ -1,4 +1,8 @@
 .main-section-subreasons {
-    text-align: left;
-    background-color: #FFFFFF;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.main-section-subreason-header {
+  color: #000000;
 }

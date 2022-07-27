@@ -1,5 +1,5 @@
 .main-section-header {
-  color: #000000
+  color: #000000;
 }
 
 .main-section-text {
@@ -17,5 +17,9 @@
   height: 260px;
   background-image: url("/images/photo-bridge@1x.jpeg");
   background-position: center;
-  background-color: #DFA991;
+  background-color: #dfa991;
+}
+
+.main-interested-header {
+  color: #000000;
 }
