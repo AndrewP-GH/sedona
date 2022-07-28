@@ -7,17 +7,19 @@
 }
 
 .main-section-image-1 {
-  height: 260px;
+  height: 256px;
   background-image: url("/images/photo-city@1x.jpeg");
-  background-position: center;
   background-color: #758777;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-section-image-2 {
-  height: 260px;
+  height: 256px;
   background-image: url("/images/photo-bridge@1x.jpeg");
-  background-position: center;
   background-color: #dfa991;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-interested-header {
