@@ -3,6 +3,7 @@
   background-image: url("/images/back-desktop.jpeg");
   background-position: center;
   height: 390px;
+  background-size: cover;
 }
 
 .banner-img {
