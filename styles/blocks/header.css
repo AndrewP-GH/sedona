@@ -2,3 +2,33 @@
   line-height: 16px;
   color: #000000;
 }
+
+.menu-item {
+  height: 56px;
+  width: 100%;
+  background-color: #81B3D2;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-link {
+  height: 100%;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1
+}
+
+.menu-text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: calc(100vw - 36px);
+}
