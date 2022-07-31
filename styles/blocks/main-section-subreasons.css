@@ -8,6 +8,10 @@
   gap: 12px;
 }
 
+.main-section-subreason-icon {
+  fill: #81B3D2;
+}
+
 .main-section-subreason-content {
   display: flex;
   flex-direction: column;

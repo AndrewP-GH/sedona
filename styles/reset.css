@@ -18,3 +18,8 @@ button {
   font-family: inherit;
   cursor: pointer;
 }
+
+h4,
+p {
+  margin: 0;
+}
