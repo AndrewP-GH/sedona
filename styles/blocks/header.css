@@ -23,7 +23,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 1
+  width: 100%;
+  /* why flex-grow: 1; not work? */
 }
 
 .menu-text {
