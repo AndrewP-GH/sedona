@@ -6,18 +6,19 @@
   line-height: 26px;
 }
 
-.main-section-image-1 {
+.main-section-image{
   height: 256px;
-  background-image: url("/images/photo-city@1x.jpeg");
-  background-color: #758777;
   background-position: center;
 }
 
-.main-section-image-2 {
-  height: 256px;
+.main-section-image__city {
+  background-image: url("/images/photo-city@1x.jpeg");
+  background-color: #758777;
+}
+
+.main-section-image__bridge {
   background-image: url("/images/photo-bridge@1x.jpeg");
   background-color: #dfa991;
-  background-position: center;
 }
 
 .main-interested-header {
