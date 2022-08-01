@@ -1,12 +1,29 @@
 .header {
+  position: relative;
   color: #000000;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  height: 56px;
+  width: 100%;
+}
+
+.menu-button {
+  height: 56px;
+  width: 56px;
+  background-color: pink;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .menu-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .menu-item {
@@ -16,6 +33,10 @@
   font-weight: 700;
   height: 56px;
   line-height: 16px;
+  background-color: #81B3D2;
+  width: 100%;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 .menu-text {
@@ -29,24 +50,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media only screen and (max-device-width: 320px) {
-  .menu-list {
-    flex-direction: column;
-  }
-
-  .menu-item {
-    background-color: #81B3D2;
-    width: 100%;
-    font-size: 18px;
-    line-height: 18px;
-  }
-
-  .menu-link {
-    color: #FFFFFF;
-    height: 100%;
-    width: 100%;
-    /* why flex-grow: 1; not work? */
-  }
+  color: #FFFFFF;
+  height: 100%;
+  width: 100%;
 }
