@@ -2,10 +2,15 @@
   background-color: #eeeeee;
 }
 
+.main-section-reason-desc__blue-block {
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+
 .main-section-reason-header {
   color: #000000;
 }
 
-.main-section-reason-header[wh] {
+.main-section-reason-desc__blue-block .main-section-reason-header {
   color: #ffffff;
 }
