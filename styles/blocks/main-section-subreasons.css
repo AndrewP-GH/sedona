@@ -1,15 +1,23 @@
 .main-section-subreasons {
   text-align: left;
   background-color: #ffffff;
+  padding: 28px 20px 36px;
 }
 
-.main-section-subreason {
+.main-section-subreason-item:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.main-section-subreason-card {
   display: flex;
   gap: 12px;
 }
 
 .main-section-subreason-icon {
   fill: #81B3D2;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
 }
 
 .main-section-subreason-content {

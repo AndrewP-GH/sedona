@@ -1,12 +1,35 @@
 .header {
   position: relative;
   color: #000000;
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 56px;
+}
+
+.header button {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  /* z-index: 100; */
+}
+
+.logo-border {
+  display: none;
 }
 
 .menu {
   position: absolute;
   top: 0;
-  height: 56px;
   width: 100%;
 }
 
