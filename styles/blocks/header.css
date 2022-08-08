@@ -13,6 +13,7 @@
 .header button {
   margin-left: auto;
   margin-right: 20px;
+  margin-top: 17px;
 }
 
 .logo {
@@ -36,7 +37,7 @@
 .menu-button {
   height: 56px;
   width: 56px;
-  background-color: white;
+  background-color: transparent;
   position: absolute;
   top: 0;
   right: 0;
@@ -53,12 +54,12 @@
 .line {
   width: 23px;
   height: 4px;
-  background-color: #81B3D2;
+  background-color: white;
   display: block;
 }
 
 .line:not(:last-child) {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .menu-list {
