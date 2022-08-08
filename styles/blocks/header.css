@@ -79,7 +79,18 @@
   width: 100%;
   font-size: 18px;
   line-height: 18px;
+  border-bottom: 1px;
+  border-color: #A7CAE0;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
 }
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
 
 .menu-text {
   white-space: nowrap;
