@@ -4,7 +4,7 @@
 @import "styles/font.css";
 
 /* Mixins*/
-@import "styles/mixins.css";
+@import "styles/mixins/header.css";
 
 /* Blocks styles */
 @import "styles/blocks/footer.css";
