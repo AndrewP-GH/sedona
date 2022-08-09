@@ -8,6 +8,7 @@
 
 /* Blocks styles */
 @import "styles/blocks/footer.css";
+@import "styles/blocks/form.css";
 @import "styles/blocks/header.css";
 @import "styles/blocks/main.css";
 @import "styles/blocks/main-banner.css";
