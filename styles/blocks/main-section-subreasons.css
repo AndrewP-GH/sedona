@@ -15,7 +15,7 @@
 
 .main-section-subreason-icon {
   fill: #81B3D2;
-  /* flex-shrink: 0; */
+  flex-shrink: 0;
 }
 
 .main-section-subreason-content {
