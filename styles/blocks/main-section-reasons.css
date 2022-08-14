@@ -14,8 +14,7 @@
 }
 
 .main-section-reason-desc {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 32px 24px;
   position: relative;
 }
 
@@ -31,13 +30,17 @@
 .main-section-reason-desc__blue-block {
   background-color: #81b3d2;
   color: #ffffff;
-  padding-top: 36px;
-  padding-bottom: 0;
+  padding: 36px 0px 0px;
 }
 
 .main-section-reason-desc__blue-block .main-section-reason-header {
   color: #ffffff;
   margin-bottom: 12px;
+}
+
+.main-section-reason-desc__blue-block .main-section-reason-text {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .main-section-reason-desc__blue-block .main-section-reason-text:not(:last-of-type) {
