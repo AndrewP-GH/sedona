@@ -1,16 +1,49 @@
 .main-section-reason {
   background-color: #eeeeee;
+  position: relative;
+}
+
+.main-section-reason:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 280px;
+  height: 1px;
+  background-color: #D6D6D6;
+}
+
+.main-section-reason-desc {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  position: relative;
+}
+
+.main-section-reason-text:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.main-section-reason-header {
+  color: #000000;
+  margin-bottom: 14px;
 }
 
 .main-section-reason-desc__blue-block {
   background-color: #81b3d2;
   color: #ffffff;
-}
-
-.main-section-reason-header {
-  color: #000000;
+  padding-top: 36px;
+  padding-bottom: 0;
 }
 
 .main-section-reason-desc__blue-block .main-section-reason-header {
   color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.main-section-reason-desc__blue-block .main-section-reason-text:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+
+.main-section-reason-desc__blue-block .main-section-reason-text:last-of-type {
+  margin-bottom: 36px;
 }
