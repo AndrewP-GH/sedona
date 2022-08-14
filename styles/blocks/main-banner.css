@@ -4,10 +4,16 @@
   background-position: center;
   height: 390px;
   background-size: cover;
+  position: relative;
+  padding: 90px 20px 87px;
+  margin-bottom: 32px;
 }
 
 .banner-img {
   width: 280px;
   height: 212px;
   margin: 90px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

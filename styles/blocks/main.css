@@ -1,12 +1,18 @@
 .main-section-header {
   color: #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 28px;
 }
 
 .main-section-text {
   line-height: 26px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px;
 }
 
-.main-section-image{
+.main-section-image {
   height: 256px;
   background-position: center;
 }
