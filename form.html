@@ -14,7 +14,8 @@
     <a class="logo" href="index.html">
       <svg class="logo-img" width="186" height="97" viewBox="0 0 186 97" fill="none" xmlns="http://www.w3.org/2000/svg">
         <title>Логотип города Седона</title>
-        <path d="M186 0H0L80.2412 90.209C87.3183 98.0836 98.7813 98.0836 105.859 90.209L186 0Z" fill="#81B3D3" />
+        <path class="logo-border" d="M186 0H0L80.2412 90.209C87.3183 98.0836 98.7813 98.0836 105.859 90.209L186 0Z"
+          fill="#81B3D3" />
         <path d="M43.061 0.697749L92.5016 58.91L141.643 1.09646L43.061 0.697749Z" fill="#23A9E1" />
         <path
           d="M121.608 17.2444C116.524 17.2444 111.54 17.344 106.457 17.344C112.437 10.4662 115.129 11.164 121.608 17.2444Z"
@@ -99,22 +100,31 @@
           fill="white" />
       </svg>
     </a>
-    <nav class="menu">
+    <nav class="menu" hidden>
       <ul class="menu-list">
         <li class="menu-item">
-          <a class="menu-link" href="index.html">Главная</a>
+          <a class="menu-link blue-button menu-active" href="index.html">
+            <span class="menu-text">Главная</span></a>
         </li>
         <li class="menu-item">
-          <a href="#" class="menu-link">Фото и видео</a>
+          <a href="#" class="menu-link blue-button menu-active">
+            <span class="menu-text">Фото и видео</span></a>
         </li>
         <li class="menu-item">
-          <a class="menu-link">Форма отзыва</a>
+          <a class="menu-link blue-button menu-active">
+            <span class="menu-text">Форма отзыва</span></a>
         </li>
         <li class="menu-item">
-          <a href="#" class="menu-link">HTML academy</a>
+          <a href="#" class="menu-link blue-button menu-active">
+            <span class="menu-text">HTML academy</span></a>
         </li>
       </ul>
     </nav>
+    <button class="menu-button" type="button">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </button>
   </header>
   <main class="main">
     <br>
@@ -213,33 +223,33 @@
     </form>
   </main>
   <footer class="footer">
-    <strong class="footer-hashtag">#visitsedonda</strong>
+    <strong class="footer-hashtag h-text-l">#visitsedonda</strong>
 
     <ul class="footer-social social-list">
       <li class="social-item">
-        <a class="social-link" href="https://twitter.com" target="_blank">
-          <svg class="social-link-image" width="19" height="16" viewBox="0 0 19 16" xmlns="http://www.w3.org/2000/svg">
+        <a class="social-link blue-button social-active" href="https://twitter.com" target="_blank">
+          <svg class="social-link-image" width="19" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 16">
             <title>Twitter</title>
             <path
-              d="M11.9473 0.280727C13.7368 -0.245588 15.2105 0.491254 15.8421 1.43862C16.5789 1.2281 17.3158 0.912306 18.0526 0.70178C18.0526 1.54389 17.5263 2.28073 17.1052 2.49125C17.8421 2.70178 18.4737 1.96494 18.4737 1.96494C18.2631 3.01757 17.421 3.75441 16.7895 4.0702C16.5789 11.0176 13.3158 15.6491 5.84209 15.4386C5.31577 15.4386 5.94735 15.4386 5.31577 15.4386C4.89472 15.4386 0.789454 15.0176 0.0526123 13.5439C2.47366 13.7544 4.26314 13.1228 5.10524 12.386C4.05261 12.0702 2.15788 11.8597 1.84209 9.33336C2.26314 9.43862 2.47366 9.54389 3.21051 9.43862C1.94735 8.59652 0.473665 7.85967 0.578928 5.54389C0.894718 5.85967 1.73682 6.0702 2.05261 6.0702C1.31577 5.85967 -0.0526509 2.59652 1.10524 1.01757C3.10524 2.91231 5.10524 4.70178 8.89472 4.91231C8.99998 2.49125 10.0526 0.912306 11.9473 0.280727Z" />
+              d="M11.947.28c1.79-.526 3.264.211 3.895 1.159.737-.21 1.474-.527 2.21-.737 0 .842-.526 1.579-.947 1.79.737.21 1.369-.527 1.369-.527-.21 1.053-1.053 1.79-1.684 2.105-.211 6.948-3.474 11.58-10.948 11.369h-.526c-.421 0-4.527-.421-5.263-1.895 2.42.21 4.21-.421 5.052-1.158-1.052-.316-2.947-.526-3.263-3.053.421.106.632.21 1.369.106C1.947 8.597.474 7.859.579 5.544c.316.316 1.158.526 1.474.526-.737-.21-2.106-3.473-.948-5.052 2 1.894 4 3.684 7.79 3.894.105-2.42 1.158-4 3.052-4.631Z" />
           </svg>
         </a>
       </li>
       <li class="social-item">
-        <a class="social-link" href="https://www.facebook.com" target="_blank">
-          <svg class="social-link-image" width="10" height="20" viewBox="0 0 10 20" xmlns="http://www.w3.org/2000/svg">
+        <a class="social-link blue-button social-active" href="https://www.facebook.com" target="_blank">
+          <svg class="social-link-image" width="10" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 20">
             <title>Facebook</title>
             <path
-              d="M6.88748 3.93489C7.66183 3.93489 8.43618 3.93489 9.21053 3.93489C9.21053 2.83213 9.21053 1.72937 9.21053 0.526367C8.24259 0.526367 7.37145 0.526367 6.40351 0.526367C3.4029 0.726868 2.24138 2.93238 2.62855 6.64166H0.789474V10.1504H2.72535C2.72535 13.2582 2.72535 16.366 2.72535 19.4737C3.98367 19.4737 5.24199 19.4737 6.40351 19.4737C6.40351 16.366 6.40351 13.2582 6.40351 10.1504H9.21053V6.64166H6.40351C6.40351 5.63915 6.40351 4.23564 6.88748 3.93489Z" />
+              d="M6.887 3.935H9.21V.526H6.403c-3 .2-4.162 2.406-3.774 6.116H.789v3.508h1.936v9.324h3.678V10.15H9.21V6.642H6.403c0-1.003 0-2.406.484-2.707Z" />
           </svg>
         </a>
       </li>
       <li class="social-item">
-        <a class="social-link" href="https://youtube.com" target="_blank">
-          <svg class="social-link-image" width="20" height="16" viewBox="0 0 20 16" xmlns="http://www.w3.org/2000/svg">
+        <a class="social-link blue-button social-active" href="https://youtube.com" target="_blank">
+          <svg class="social-link-image" width="20" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16">
             <title>Youtube</title>
             <path
-              d="M17.1813 0.966797H2.81331C1.30618 0.966797 0 2.27297 0 3.7801V12.1195C0 13.7271 1.30618 15.0333 2.81331 15.0333H17.1813C18.7889 15.0333 19.9946 13.7271 19.9946 12.22V3.7801C20.095 2.27297 18.7889 0.966797 17.1813 0.966797ZM7.03327 11.4162V4.5839L13.8656 8.00006L7.03327 11.4162Z" />
+              d="M17.181.967H2.813C1.306.967 0 2.273 0 3.78v8.34c0 1.607 1.306 2.913 2.813 2.913h14.368a2.808 2.808 0 0 0 2.814-2.813V3.78c.1-1.507-1.206-2.813-2.814-2.813ZM7.033 11.417V4.583L13.866 8l-6.833 3.416Z" />
           </svg>
         </a>
       </li>
@@ -247,12 +257,13 @@
 
     <p class="footer-copyright copyright">
       Разработано
-      <a href="http://htmlacademy.ru" target="_blank">
-        <svg class="copyright-image" width="28" height="36" viewBox="0 0 28 36" xmlns="http://www.w3.org/2000/svg">
+      <a href="http://htmlacademy.ru" class="copyright-link" target="_blank">
+        <svg class="copyright-image" width="28" height="34" viewBox="0 0 28 34" xmlns="http://www.w3.org/2000/svg">
           <title>HTML Academy</title>
           <path
-            d="M14.1561 -0.0500488H14.052L0 1.4072V27.1172L14.052 35.4444L28 27.1172V1.4072L14.1561 -0.0500488ZM26.0223 12.5447L14.052 5.46668V5.36259H13.948L13.8439 5.2585V5.36259L1.9777 12.5447V3.17672L13.948 1.92765L26.0223 3.17672V12.5447ZM13.948 7.02802L25.9182 14.002L21.2342 16.7083L13.8439 12.3366V13.7938L19.9851 17.4369L19.0483 17.9574L13.8439 14.8347V16.292L17.7993 18.686L16.9665 19.2065L13.8439 17.3329V18.7901L15.8216 19.9351L13.948 21.0801L2.08178 14.1061L13.948 7.02802ZM1.9777 15.6674L13.8439 22.7455V23.7864L5.62082 18.8942V20.3514L13.948 25.3477V26.4927L5.62082 21.6005V23.0578L13.948 28.054L22.3792 22.9537V17.541L25.9182 15.4592V25.8682L13.948 33.0503L1.9777 25.9723V15.6674Z" />
-        </svg></a>
+            d="M14.15-.05h-.1L.55 1.35v24.7l13.5 8 13.4-8V1.35l-13.3-1.4Zm11.4 12.1-11.5-6.8v-.1h-.1l-.1-.1v.1l-11.4 6.9v-9l11.5-1.2 11.6 1.2v9Zm-11.6-5.3 11.5 6.7-4.5 2.6-7.1-4.2v1.4l5.9 3.5-.9.5-5-3v1.4l3.8 2.3-.8.5-3-1.8v1.4l1.9 1.1-1.8 1.1-11.4-6.7 11.4-6.8Zm-11.5 8.3 11.4 6.8v1l-7.9-4.7v1.4l8 4.8v1.1l-8-4.7v1.4l8 4.8 8.1-4.9v-5.2l3.4-2v10l-11.5 6.9-11.5-6.8v-9.9Z" />
+        </svg>
+      </a>
     </p>
   </footer>
 </body>
