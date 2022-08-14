@@ -10,7 +10,7 @@
   height: 56px;
 }
 
-.header button {
+.menu-button {
   margin-left: auto;
   margin-right: 20px;
   margin-top: 17px;
@@ -21,7 +21,6 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  /* z-index: 100; */
 }
 
 .logo-border {
