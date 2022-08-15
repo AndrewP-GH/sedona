@@ -4,7 +4,6 @@
 @import "styles/font.css";
 
 /* Mixins*/
-@import "styles/mixins/actions.css";
 @import "styles/mixins/button.css";
 @import "styles/mixins/header.css";
 

@@ -15,3 +15,12 @@
   height: 56px;
   color: #ffffff;
 }
+
+.main-interested-link:active {
+  background-color: #5496BD;
+  color: rgb(255, 255, 255, 0.3);
+}
+
+.main-interested-link[disabled] {
+  background-color: #E5E5E5;
+}
