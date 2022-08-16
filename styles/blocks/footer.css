@@ -43,6 +43,7 @@
 .copyright-image {
   width: 28px;
   height: 36px;
+  display: block;
 }
 
 .copyright-image:active {
