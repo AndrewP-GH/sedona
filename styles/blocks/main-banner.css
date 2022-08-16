@@ -13,6 +13,7 @@
   width: 280px;
   height: 212px;
   position: absolute;
+  top: 90px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -25,4 +26,5 @@
 .form-banner-img {
   width: 230px;
   height: 40px;
+  top: 50px;
 }
