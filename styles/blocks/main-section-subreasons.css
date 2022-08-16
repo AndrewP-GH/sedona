@@ -10,7 +10,10 @@
 
 .main-section-subreason-card {
   display: flex;
-  gap: 12px;
+}
+
+.subreason-icon-wrapper {
+  margin-right: 12px;
 }
 
 .main-section-subreason-icon {
