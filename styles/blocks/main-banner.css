@@ -15,6 +15,15 @@
   top: 90px;
   left: 50%;
   transform: translateX(-50%);
+  fill: white;
+}
+
+.banner-img .welcome {
+  fill: #81B3D3;
+}
+
+.banner-img .under-welcome {
+  fill: #766458;
 }
 
 .form-main-banner {
