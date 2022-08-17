@@ -72,8 +72,6 @@
   height: 56px;
   line-height: 16px;
   width: 100%;
-  font-size: 18px;
-  line-height: 18px;
   position: relative;
 }
 
@@ -101,9 +99,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FFFFFF;
   height: 100%;
   width: 100%;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 .menu-link:active {

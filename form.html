@@ -144,21 +144,32 @@
     <form class="form" method="POST" action="https://echo.htmlacademy.ru">
       <fieldset class="form-fieldset">
         <legend class="form-legend">Представьтесь:</legend>
-        <ul>
+        <ul class="form-part">
           <li>
             <label class="form-label">
-              <span class="form-label-text">Имя:</span>
+              <span class="form-label-text">Имя*:</span>
               <input class="form-input" type="text" placeholder="Введите ваше имя" value="Петр" name="first-name">
             </label>
           </li>
-          <li></li>
-          <li></li>
+          <li>
+            <label class="form-label">
+              <span class="form-label-text">Фамилия*:</span>
+              <input class="form-input" type="text" placeholder="Введите ваше имя" value="Иванов" name="second-name">
+            </label>
+          </li>
+          <li>
+            <label class="form-label">
+              <span class="form-label-text">Отчество:</span>
+              <input class="form-input" type="text" placeholder="Введите ваше имя" value="Александрович"
+                name="patronymic-name">
+            </label>
+          </li>
         </ul>
       </fieldset>
 
       <fieldset class="form-fieldset">
         <legend>Ваше общее впечатление:</legend>
-        <ul>
+        <ul class="form-part">
           <li>
             <label class="form-label">
               <input class="form-input" type="radio" name="radio" value="postitve" checked>
@@ -182,7 +193,7 @@
 
       <fieldset class="form-fieldset">
         <legend>Ваше общее впечатление:</legend>
-        <ul>
+        <ul class="form-part">
           <li>
             <label class="form-label">
               <input class="form-input" type="checkbox" name="ch-positive" value="postitve">
@@ -223,7 +234,7 @@
         </ul>
       </fieldset>
 
-      <button type="submit" class="button form-submit">Отправить отзыв</button>
+      <button type="submit" class="blue-button form-submit">Отправить отзыв</button>
     </form>
   </main>
   <footer class="footer">
@@ -258,7 +269,6 @@
         </a>
       </li>
     </ul>
-
     <p class="footer-copyright copyright">
       Разработано
       <a href="http://htmlacademy.ru" class="copyright-link" target="_blank">
