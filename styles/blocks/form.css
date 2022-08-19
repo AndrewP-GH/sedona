@@ -1,6 +1,7 @@
 .form {
   text-align: left;
-  /* padding-top: добавить; */
+  padding-top: 6px;
+  padding-bottom: 28px;
 }
 
 .form-fieldset {
