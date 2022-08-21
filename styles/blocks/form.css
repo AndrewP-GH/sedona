@@ -53,6 +53,7 @@
   align-self: flex-start;
   margin: 0;
   margin-bottom: 5px;
+  padding-left: 22px;
 }
 
 .form-input {
@@ -75,6 +76,9 @@
 
 .form-label__select>.form-label-text {
   text-transform: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .form-textarea {
