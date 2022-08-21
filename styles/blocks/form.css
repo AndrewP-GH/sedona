@@ -51,7 +51,6 @@
 
 .form-label__vertical>.form-label-text {
   align-self: flex-start;
-  padding-left: 22px;
   margin: 0;
   margin-bottom: 5px;
 }
@@ -59,7 +58,13 @@
 .form-input {
   height: 58px;
   width: 100%;
-  padding-left: 22px;
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+  padding: 18px 22px 14px;
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .form-label__select>.form-input {
@@ -73,7 +78,6 @@
 }
 
 .form-textarea {
-  padding: 18px 22px 14px;
   height: 160px;
   resize: none;
   margin-bottom: 24px;
