@@ -61,3 +61,16 @@
   width: 100%;
   padding-left: 22px;
 }
+
+.form-label__select>.form-input {
+  height: 56px;
+  width: 56px;
+  margin-right: 22px;
+}
+
+.form-label__select>.form-label-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: none;
+}
