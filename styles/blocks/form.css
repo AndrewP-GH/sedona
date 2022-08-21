@@ -69,8 +69,12 @@
 }
 
 .form-label__select>.form-label-text {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
   text-transform: none;
+}
+
+.form-textarea {
+  padding: 18px 22px 14px;
+  height: 160px;
+  resize: none;
+  margin-bottom: 24px;
 }
