@@ -137,31 +137,32 @@
       <h2 class="main-section-header h-text-m">
         Оставьте свой отзыв
       </h2>
-      <p class="main-section-text">
-        РПомогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях
+      <p class="form-main-section-text">
+        Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях
       </p>
     </section>
     <form class="form" method="POST" action="https://echo.htmlacademy.ru">
       <fieldset class="form-fieldset">
-        <legend class="form-legend">Представьтесь:</legend>
+        <legend class="form-legend h-text-m">Представьтесь:</legend>
         <ul class="form-part">
           <li>
             <label class="form-label">
               <span class="form-label-text">Имя*:</span>
-              <input class="form-input" type="text" placeholder="Введите ваше имя" value="Петр" name="first-name">
+              <input class="form-input h-text-m" type="text" placeholder="Введите ваше имя" value="Петр"
+                name="first-name">
             </label>
           </li>
           <li>
             <label class="form-label">
               <span class="form-label-text">Фамилия*:</span>
-              <input class="form-input" type="text" placeholder="Введите вашу фамилию" value="Иванов"
+              <input class="form-input h-text-m" type="text" placeholder="Введите вашу фамилию" value="Иванов"
                 name="second-name">
             </label>
           </li>
           <li>
             <label class="form-label">
               <span class="form-label-text">Отчество:</span>
-              <input class="form-input" type="text" placeholder="Введите ваше отчество" value="Александрович"
+              <input class="form-input h-text-m" type="text" placeholder="Введите ваше отчество" value="Александрович"
                 name="patronymic-name">
             </label>
           </li>
@@ -169,22 +170,17 @@
       </fieldset>
 
       <fieldset class="form-fieldset">
-        <legend class="form-legend">Опишите свои эмоции:</legend>
-        <textarea placeholder="Опишите подробно все свои восторги">123</textarea>
-      </fieldset>
-
-      <fieldset class="form-fieldset">
-        <legend class="form-legend">Контактная информация:</legend>
+        <legend class="form-legend h-text-m">Контактная информация:</legend>
         <ul>
           <li>
             <label class="form-label">
               <span class="form-label-text">Контактный телефон*:</span>
-              <input class="form-input" type="email" placeholder="Введите e-mail" value="" name="email">
+              <input class="form-input" type="tel" placeholder="Введите телефон" value="" name="email">
             </label>
           </li>
           <li>
             <label class="form-label">
-              <span class="form-label-text">Контактный телефон*:</span>
+              <span class="form-label-text">Электронная почта*:</span>
               <input class="form-input" type="email" placeholder="Введите e-mail" value="" name="email">
             </label>
           </li>
@@ -192,7 +188,7 @@
       </fieldset>
 
       <fieldset class="form-fieldset">
-        <legend class="form-legend">Ваше общее впечатление:</legend>
+        <legend class="form-legend h-text-m">Ваше общее впечатление:</legend>
         <ul class="form-part">
           <li>
             <label class="form-label">
@@ -237,6 +233,11 @@
             </label>
           </li>
         </ul>
+      </fieldset>
+
+      <fieldset class="form-fieldset">
+        <legend class="form-legend">Опишите свои эмоции:</legend>
+        <textarea placeholder="Опишите подробно все свои восторги">123</textarea>
       </fieldset>
 
       <button type="submit" class="blue-button form-submit">Отправить отзыв</button>

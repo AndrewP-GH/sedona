@@ -12,6 +12,13 @@
   margin-bottom: 14px;
 }
 
+.form-main-section-text {
+  line-height: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
 .main-section-image {
   height: 256px;
   background-position: center;
