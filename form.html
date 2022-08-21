@@ -175,13 +175,15 @@
           <li class="form-field">
             <label class="form-label form-label__vertical">
               <span class="form-label-text">Контактный телефон*:</span>
-              <input class="form-input" type="tel" placeholder="Введите телефон" value="" name="phone" required>
+              <input class="form-input" type="tel" placeholder="Введите телефон" value="" name="phone"
+                pattern="[7-9]{1}[0-9]{10}" required>
             </label>
           </li>
           <li class="form-field">
             <label class="form-label form-label__vertical">
               <span class="form-label-text">Электронная почта*:</span>
-              <input class="form-input" type="email" placeholder="Введите e-mail" value="" name="email" required>
+              <input class="form-input" type="email" placeholder="Введите e-mail" value="" name="email"
+                pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required>
             </label>
           </li>
         </ul>
