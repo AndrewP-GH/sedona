@@ -92,7 +92,7 @@ input.form-input {
   background-color: #FFFFFF;
 }
 
-.form-label__select>.form-input {
+.form-label__select .form-input {
   height: 56px;
   width: 56px;
   margin-right: 22px;
