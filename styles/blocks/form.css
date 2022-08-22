@@ -58,7 +58,7 @@
   margin-right: 12px;
 }
 
-.form-label__vertical>.form-label-text {
+.form-label__vertical .form-label-text {
   align-self: flex-start;
   margin: 0;
   margin-bottom: 5px;
