@@ -108,13 +108,15 @@ input.form-input {
 .form-textarea {
   height: 160px;
   resize: none;
-  margin-bottom: 24px;
+  margin-bottom: 4px;
+  text-transform: none;
 }
 
 .form-submit-block {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0px 20px;
 }
 
 .form-submit {

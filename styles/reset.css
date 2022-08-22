@@ -14,8 +14,11 @@ a {
   padding: 0;
 }
 
+textarea,
 button {
   border: 0;
   font-family: inherit;
   cursor: pointer;
+  line-height: inherit;
+  text-transform: inherit;
 }
