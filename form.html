@@ -126,6 +126,7 @@
     </button>
   </header>
   <main class="main">
+    <h1 class="main-header visually-hidden">Форма отзыва</h1>
     <section class="main-section">
       <div class="main-banner form-main-banner">
         <svg class="banner-img form-banner-img" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 80">
@@ -210,19 +211,22 @@
         <ul class="form-part">
           <li class="form-field">
             <label class="form-label form-label__select">
-              <input class="form-input" type="radio" name="radio" value="positive" checked>
+              <input class="visually-hidden radio-input" type="radio" name="radio" value="positive" checked>
+              <span class="custom-radio"></span>
               <span class="form-label-text">Скорее положительное</span>
             </label>
           </li>
           <li class="form-field">
             <label class="form-label form-label__select">
-              <input class="form-input" type="radio" name="radio" value="negative">
+              <input class="visually-hidden radio-input" type="radio" name="radio" value="negative">
+              <span class="custom-radio"></span>
               <span class="form-label-text">Скорее отрицательное</span>
             </label>
           </li>
           <li class="form-field">
             <label class="form-label form-label__select">
-              <input class="form-input" type="radio" name="radio" value="unknown">
+              <input class="visually-hidden radio-input" type="radio" name="radio" value="unknown">
+              <span class="custom-radio"></span>
               <span class="form-label-text">Затрудняюсь ответить</span>
             </label>
           </li>

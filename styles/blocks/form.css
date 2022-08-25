@@ -141,3 +141,13 @@ input.form-input {
   align-items: center;
   justify-content: center;
 }
+
+.radio-input:checked+.custom-radio::after {
+  content: "";
+}
+
+.radio-input:focus+.custom-radio {
+  outline-style: auto;
+  outline-color: blue;
+  outline-width: 2px;
+}

@@ -6,6 +6,8 @@
 /* Mixins*/
 @import "styles/mixins/button.css";
 @import "styles/mixins/header.css";
+@import "styles/mixins/custom-radio.css";
+@import "styles/mixins/visually-hidden.css";
 
 /* Blocks styles */
 @import "styles/blocks/footer.css";
