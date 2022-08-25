@@ -126,3 +126,18 @@ input.form-input {
 .form-mark-description {
   display: block;
 }
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.input-icon-wrapper {
+  display: flex;
+  width: 58px;
+  height: 58px;
+  background-color: #E6E6E6;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
