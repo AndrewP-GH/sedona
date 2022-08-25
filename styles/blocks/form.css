@@ -143,11 +143,23 @@ input.form-input {
 }
 
 .radio-input:checked+.custom-radio::after {
-  content: "";
+  opacity: 1;
 }
 
 .radio-input:focus+.custom-radio {
   outline-style: auto;
   outline-color: blue;
   outline-width: 2px;
+}
+
+.custom-radio:hover {
+  background-color: #E5E5E5;
+}
+
+.radio-input:active+.custom-radio {
+  background-color: #D5D5D5;
+}
+
+.form-label.radio-input:active .custom-radio::after {
+  opacity: 0.3
 }
