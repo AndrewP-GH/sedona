@@ -160,6 +160,6 @@ input.form-input {
   background-color: #D5D5D5;
 }
 
-.form-label.radio-input:active .custom-radio::after {
+.radio-input:active+.custom-radio::after {
   opacity: 0.3
 }
