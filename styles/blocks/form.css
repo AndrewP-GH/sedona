@@ -163,3 +163,25 @@ input.form-input {
 .radio-input:active+.custom-radio::after {
   opacity: 0.3
 }
+
+.checkbox-input:checked+.custom-checkbox::after {
+  opacity: 1;
+}
+
+.checkbox-input:focus+.custom-checkbox {
+  outline-style: auto;
+  outline-color: blue;
+  outline-width: 2px;
+}
+
+.custom-checkbox:hover {
+  background-color: #E5E5E5;
+}
+
+.checkbox-input:active+.custom-checkbox {
+  background-color: #D5D5D5;
+}
+
+.checkbox-input:active+.custom-checkbox::after {
+  opacity: 0.3
+}

@@ -1,0 +1,40 @@
+.custom-checkbox {
+  position: relative;
+  display: flex;
+  width: 56px;
+  height: 56px;
+  background-color: #F2F2F2;
+  flex-shrink: 0;
+  margin-right: 22px;
+}
+
+/* .custom-checkbox::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  height: 12px;
+  width: 21px;
+  transform: translate(-40%, -90%) rotate(-45deg);
+  border-bottom: 4px solid #000;
+  border-left: 4px solid #000;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+} */
+
+
+.custom-checkbox::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  transform: translate(-50%, -50%);
+  background-image: url('/images/tick.svg');
+  background-size: 23px 17px;
+  width: 23px;
+  height: 17px;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
