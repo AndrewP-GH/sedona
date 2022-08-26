@@ -183,5 +183,5 @@ input.form-input {
 }
 
 .checkbox-input:active+.custom-checkbox .checkbox-tick {
-  opacity: 0.3
+  opacity: 0.3;
 }
