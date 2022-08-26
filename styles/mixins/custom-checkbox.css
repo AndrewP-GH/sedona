@@ -24,7 +24,7 @@
 } */
 
 
-.custom-checkbox::after {
+.checkbox-tick {
   content: "";
   position: absolute;
   top: 50%;
