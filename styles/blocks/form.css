@@ -29,7 +29,8 @@
 }
 
 .form-legend {
-  text-align: center;
+  /* text-align: center; */
+  margin: auto;
   margin-bottom: 20px;
 }
 
