@@ -10,3 +10,13 @@
   font-size: 21px;
   line-height: 26px;
 }
+
+@media (min-width: 1200px) {
+  .blue-button:hover {
+    background-color: #669EC0;
+  }
+}
+
+.blue-button:active {
+  background-color: #5496BD;
+}
