@@ -49,3 +49,22 @@
 .copyright-image:active {
   opacity: 0.3;
 }
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    padding: 36px 60px;
+    justify-content: space-between;
+  }
+
+  .footer-hashtag,
+  .footer-social {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    padding: 36px 120px;
+  }
+}
