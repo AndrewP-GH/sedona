@@ -19,4 +19,5 @@
 
 .blue-button:active {
   background-color: #5496BD;
+  color: rgb(255, 255, 255, 0.3);
 }

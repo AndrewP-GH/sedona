@@ -104,8 +104,3 @@
   font-size: 18px;
   line-height: 18px;
 }
-
-.menu-link:active {
-  background-color: #5496BD;
-  color: rgb(255, 255, 255, 0.3);
-}
