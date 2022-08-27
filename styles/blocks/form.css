@@ -147,6 +147,10 @@ input.form-input {
   opacity: 1;
 }
 
+.radio-input:active+.custom-radio::after {
+  opacity: 0.3
+}
+
 .radio-input:focus+.custom-radio {
   outline-style: auto;
   outline-color: blue;
@@ -161,13 +165,14 @@ input.form-input {
   background-color: #D5D5D5;
 }
 
-.radio-input:active+.custom-radio .checkbox-tick {
-  opacity: 0.3
-}
-
-.checkbox-input:checked+.custom-checkbox .checkbox-tick {
+.checkbox-input:checked+.custom-checkbox::after {
   opacity: 1;
 }
+
+.checkbox-input:active+.custom-checkbox::after {
+  opacity: 0.3;
+}
+
 
 .checkbox-input:focus+.custom-checkbox {
   outline-style: auto;
@@ -181,8 +186,4 @@ input.form-input {
 
 .checkbox-input:active+.custom-checkbox {
   background-color: #D5D5D5;
-}
-
-.checkbox-input:active+.custom-checkbox .checkbox-tick {
-  opacity: 0.3;
 }
