@@ -27,26 +27,26 @@
   margin-bottom: 14px;
 }
 
-.main-section-reason-desc__blue-block {
+.main-section-reason-desc__blue_block {
   background-color: #81b3d2;
   color: #ffffff;
   padding: 36px 0px 0px;
 }
 
-.main-section-reason-desc__blue-block .main-section-reason-header {
+.main-section-reason-desc__blue_block .main-section-reason-header {
   color: #ffffff;
   margin-bottom: 12px;
 }
 
-.main-section-reason-desc__blue-block .main-section-reason-text {
+.main-section-reason-desc__blue_block .main-section-reason-text {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.main-section-reason-desc__blue-block .main-section-reason-text:not(:last-of-type) {
+.main-section-reason-desc__blue_block .main-section-reason-text:not(:last-of-type) {
   margin-bottom: 16px;
 }
 
-.main-section-reason-desc__blue-block .main-section-reason-text:last-of-type {
+.main-section-reason-desc__blue_block .main-section-reason-text:last-of-type {
   margin-bottom: 36px;
 }
