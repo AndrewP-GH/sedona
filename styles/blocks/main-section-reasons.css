@@ -50,3 +50,36 @@
 .main-section-reason-desc__blue_block .main-section-reason-text:last-of-type {
   margin-bottom: 36px;
 }
+
+.main-section-reason-image {
+  height: 256px;
+  background-position: center;
+}
+
+.main-section-reason-image__city {
+  background-image: url("/images/photo-city@1x.jpeg");
+  background-color: #758777;
+}
+
+.main-section-reason-image__bridge {
+  background-image: url("/images/photo-bridge@1x.jpeg");
+  background-color: #dfa991;
+}
+
+@media (min-width: 768px) {
+  .main-section-reason-desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .main-section-reason-text-wrapper {
+    width: 256px;
+  }
+
+  .main-section-reason-image {
+    width: 100%;
+  }
+
+  @media (min-width: 1200px) {}
+}

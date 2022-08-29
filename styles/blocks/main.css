@@ -16,21 +16,6 @@
   margin-bottom: 40px;
 }
 
-.main-section-image {
-  height: 256px;
-  background-position: center;
-}
-
-.main-section-image__city {
-  background-image: url("/images/photo-city@1x.jpeg");
-  background-color: #758777;
-}
-
-.main-section-image__bridge {
-  background-image: url("/images/photo-bridge@1x.jpeg");
-  background-color: #dfa991;
-}
-
 .main-interested-header {
   color: #000000;
 }
@@ -45,22 +30,6 @@
     padding: 0 142px;
     margin-bottom: 55px;
   }
-
-  .form-main-section-text {
-    line-height: 24px;
-    padding: 0 20px;
-    margin-bottom: 40px;
-  }
-
-  .main-section-image {
-    height: 256px;
-  }
-
-  .main-section-image__city {}
-
-  .main-section-image__bridge {}
-
-  .main-interested-header {}
 }
 
 @media (min-width: 1200px) {
@@ -72,20 +41,4 @@
     padding: 0 358px;
     margin-bottom: 42px;
   }
-
-  .form-main-section-text {
-    line-height: 24px;
-    padding: 0 20px;
-    margin-bottom: 40px;
-  }
-
-  .main-section-image {
-    height: 256px;
-  }
-
-  .main-section-image__city {}
-
-  .main-section-image__bridge {}
-
-  .main-interested-header {}
 }
