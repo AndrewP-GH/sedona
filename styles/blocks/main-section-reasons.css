@@ -67,14 +67,15 @@
 }
 
 @media (min-width: 768px) {
+  .main-section-reason {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .main-section-reason-desc {
     display: flex;
     flex-direction: row;
     justify-content: start;
-  }
-
-  .main-section-reason-text-wrapper {
-    width: 256px;
   }
 
   .main-section-reason-image {
